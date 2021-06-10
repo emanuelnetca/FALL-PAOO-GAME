@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="929.75" y="1763.5">Collectables.Collectable</node>
+    <node x="1786.7333333333333" y="4639.0">com.manu.GameMain</node>
+    <node x="638.75" y="1719.5">Player.Player</node>
+    <node x="1524.8296666251765" y="3124.0">Scenes.Highscore</node>
+    <node x="2430.924111069621" y="4788.0">com.manu.desktop.DesktopLauncher</node>
+    <node x="670.25" y="2838.0">Scenes.Gameplay</node>
+    <node x="2304.757444402954" y="3124.0">Scenes.Options</node>
+    <node x="556.0" y="2219.0">Clouds.CloudsController</node>
+    <node x="2232.65" y="2296.0">Huds.OptionsButtons</node>
+    <node x="1223.75" y="2175.0">Huds.UIHud</node>
+    <node x="1757.647100862999" y="2363.5">com.badlogic.gdx.Screen</node>
+    <node x="1449.65" y="2351.0">Huds.HighscoreButtons</node>
+    <node x="1733.5796666251765" y="4189.0">Scenes.MainMenu</node>
+    <node x="271.0" y="2396.5">com.badlogic.gdx.physics.box2d.ContactListener</node>
+    <node x="1733.9833333333333" y="4788.0">com.manu.AndroidLauncher</node>
+    <node x="0.0" y="1763.5">Clouds.Cloud</node>
+    <node x="1990.65" y="3820.0">Huds.MainMenuButtons</node>
+    <node x="698.0701777860761" y="0.0">com.badlogic.gdx.graphics.g2d.Sprite</node>
+    <node x="1620.147100862999" y="639.5">Helpers.GameInfo</node>
+    <node x="1710.65" y="1665.0">Helpers.GameManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Huds.MainMenuButtons" target="Scenes.Gameplay">
+      <point x="-92.08333333333326" y="-149.5" />
+      <point x="2009.0666666666666" y="3760.0" />
+      <point x="902.125" y="3760.0" />
+      <point x="99.375" y="446.0" />
+    </edge>
+    <edge source="Scenes.MainMenu" target="Huds.MainMenuButtons">
+      <point x="72.5" y="-160.0" />
+      <point x="1922.0796666251765" y="4159.0" />
+      <point x="2018.275" y="4159.0" />
+      <point x="-82.875" y="149.5" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Huds.UIHud">
+      <point x="77.29166666666663" y="-446.0" />
+      <point x="880.0416666666666" y="2788.0" />
+      <point x="1243.95" y="2788.0" />
+      <point x="-80.79999999999995" y="281.5" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="Helpers.GameManager">
+      <point x="-18.416666666666515" y="-149.5" />
+      <point x="2082.7333333333336" y="3800.0" />
+      <point x="2095.65" y="3800.0" />
+      <point x="2095.65" y="2155.0" />
+      <point x="1855.3166666666666" y="2155.0" />
+      <point x="20.666666666666742" y="215.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Helpers.GameInfo">
+      <point x="33.125" y="-446.0" />
+      <point x="835.875" y="2768.0" />
+      <point x="1202.25" y="2768.0" />
+      <point x="1202.25" y="1625.0" />
+      <point x="1655.147100862999" y="1625.0" />
+      <point x="-42.0" y="93.0" />
+    </edge>
+    <edge source="Huds.HighscoreButtons" target="Helpers.GameManager">
+      <point x="80.0" y="-105.5" />
+      <point x="1649.65" y="2155.0" />
+      <point x="1813.9833333333331" y="2155.0" />
+      <point x="-20.666666666666742" y="215.0" />
+    </edge>
+    <edge source="Huds.OptionsButtons" target="Helpers.GameManager">
+      <point x="-73.66666666666674" y="-160.5" />
+      <point x="2269.4833333333336" y="2135.0" />
+      <point x="1937.9833333333331" y="2135.0" />
+      <point x="103.33333333333326" y="215.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="com.badlogic.gdx.physics.box2d.ContactListener">
+      <point x="-55.20833333333326" y="-446.0" />
+      <point x="747.5416666666667" y="2788.0" />
+      <point x="403.5" y="2788.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Scenes.Options" target="Huds.OptionsButtons">
+      <point x="-29.0" y="-160.0" />
+      <point x="2391.757444402954" y="2818.0" />
+      <point x="2387.3500000000004" y="2818.0" />
+      <point x="44.200000000000045" y="160.5" />
+    </edge>
+    <edge source="Huds.UIHud" target="Scenes.MainMenu">
+      <point x="80.79999999999995" y="281.5" />
+      <point x="1405.55" y="2778.0" />
+      <point x="1463.7859897518879" y="2778.0" />
+      <point x="1463.7859897518879" y="3770.0" />
+      <point x="1549.6482968218406" y="3770.0" />
+      <point x="1549.6482968218406" y="4159.0" />
+      <point x="1777.0796666251765" y="4159.0" />
+      <point x="-72.5" y="-160.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="com.manu.GameMain">
+      <point x="-99.375" y="446.0" />
+      <point x="703.375" y="3800.0" />
+      <point x="732.9722222222222" y="3800.0" />
+      <point x="732.9722222222222" y="4619.0" />
+      <point x="1790.2611111111112" y="4619.0" />
+      <point x="-59.97222222222217" y="-49.5" />
+    </edge>
+    <edge source="Huds.OptionsButtons" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="0.0" y="-160.5" />
+      <point x="2343.15" y="2155.0" />
+      <point x="2344.16299995851" y="2155.0" />
+      <point x="2344.16299995851" y="1535.0" />
+      <point x="949.9932547091531" y="1535.0" />
+      <point x="120.92307692307702" y="732.5" />
+    </edge>
+    <edge source="Clouds.Cloud" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="0.0" y="-116.5" />
+      <point x="114.0" y="1595.0" />
+      <point x="728.3009470168454" y="1595.0" />
+      <point x="-100.76923076923077" y="732.5" />
+    </edge>
+    <edge source="com.manu.GameMain" target="Scenes.MainMenu">
+      <point x="-3.5277777777778283" y="-49.5" />
+      <point x="1846.7055555555555" y="4539.0" />
+      <point x="1772.2463332918433" y="4539.0" />
+      <point x="-77.33333333333326" y="160.0" />
+    </edge>
+    <edge source="com.manu.desktop.DesktopLauncher" target="com.manu.GameMain">
+      <point x="-42.0" y="-27.0" />
+      <point x="2472.924111069621" y="4763.0" />
+      <point x="1881.9833333333333" y="4763.0" />
+      <point x="31.75" y="49.5" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="18.416666666666515" y="-149.5" />
+      <point x="2119.5666666666666" y="3800.0" />
+      <point x="2106.65" y="3800.0" />
+      <point x="2106.65" y="1555.0" />
+      <point x="929.8394085553069" y="1555.0" />
+      <point x="100.76923076923083" y="732.5" />
+    </edge>
+    <edge source="Huds.UIHud" target="Helpers.GameManager">
+      <point x="67.33333333333326" y="-281.5" />
+      <point x="1392.0833333333333" y="2145.0" />
+      <point x="1772.65" y="2145.0" />
+      <point x="-62.0" y="215.0" />
+    </edge>
+    <edge source="Scenes.Highscore" target="com.badlogic.gdx.Screen">
+      <point x="87.0" y="-160.0" />
+      <point x="1727.8296666251765" y="2818.0" />
+      <point x="1813.147100862999" y="2818.0" />
+      <point x="-18.5" y="93.0" />
+    </edge>
+    <edge source="Collectables.Collectable" target="Helpers.GameInfo">
+      <point x="87.33333333333337" y="-116.5" />
+      <point x="1148.0833333333335" y="1615.0" />
+      <point x="1641.147100862999" y="1615.0" />
+      <point x="-56.0" y="93.0" />
+    </edge>
+    <edge source="Huds.OptionsButtons" target="Helpers.GameInfo">
+      <point x="73.66666666666674" y="-160.5" />
+      <point x="2416.8166666666666" y="2155.0" />
+      <point x="2392.3982968218406" y="2155.0" />
+      <point x="2392.3982968218406" y="1525.0" />
+      <point x="1739.147100862999" y="1525.0" />
+      <point x="42.0" y="93.0" />
+    </edge>
+    <edge source="Scenes.Highscore" target="com.manu.GameMain">
+      <point x="0.0" y="160.0" />
+      <point x="1640.8296666251765" y="3800.0" />
+      <point x="1514.5359897518879" y="3800.0" />
+      <point x="1514.5359897518879" y="4549.0" />
+      <point x="1839.65" y="4549.0" />
+      <point x="-10.583333333333258" y="-49.5" />
+    </edge>
+    <edge source="Huds.HighscoreButtons" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="-80.0" y="-105.5" />
+      <point x="1489.65" y="2115.0" />
+      <point x="919.25" y="2115.0" />
+      <point x="919.25" y="1585.0" />
+      <point x="869.3778700937685" y="1585.0" />
+      <point x="40.30769230769238" y="732.5" />
+    </edge>
+    <edge source="Scenes.MainMenu" target="com.manu.GameMain">
+      <point x="0.0" y="160.0" />
+      <point x="1849.5796666251765" y="4529.0" />
+      <point x="1853.7611111111112" y="4529.0" />
+      <point x="3.5277777777778283" y="-49.5" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="com.badlogic.gdx.Screen">
+      <point x="121.45833333333337" y="-446.0" />
+      <point x="924.2083333333334" y="2808.0" />
+      <point x="1776.147100862999" y="2808.0" />
+      <point x="-55.5" y="93.0" />
+    </edge>
+    <edge source="Player.Player" target="Helpers.GameInfo">
+      <point x="86.33333333333337" y="-160.5" />
+      <point x="854.5833333333334" y="1605.0" />
+      <point x="1627.147100862999" y="1605.0" />
+      <point x="-70.0" y="93.0" />
+    </edge>
+    <edge source="com.manu.desktop.DesktopLauncher" target="Helpers.GameInfo">
+      <point x="42.0" y="-27.0" />
+      <point x="2556.924111069621" y="1505.0" />
+      <point x="1767.147100862999" y="1505.0" />
+      <point x="70.0" y="93.0" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="com.manu.GameMain">
+      <point x="82.875" y="149.5" />
+      <point x="2184.025" y="4169.0" />
+      <point x="2159.927777777778" y="4169.0" />
+      <point x="2159.927777777778" y="4569.0" />
+      <point x="1874.9277777777777" y="4569.0" />
+      <point x="24.694444444444343" y="-49.5" />
+    </edge>
+    <edge source="com.badlogic.gdx.graphics.g2d.Sprite" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="-120.9230769230769" y="732.5" />
+      <point x="708.1471008629992" y="1485.0" />
+      <point x="678.0701777860761" y="1485.0" />
+      <point x="678.0701777860761" y="732.5" />
+      <point x="-131.0" y="-0.0" />
+    </edge>
+    <edge source="Scenes.Options" target="Helpers.GameInfo">
+      <point x="87.0" y="-160.0" />
+      <point x="2507.757444402954" y="2818.0" />
+      <point x="2496.0988040411585" y="2818.0" />
+      <point x="2496.0988040411585" y="1515.0" />
+      <point x="1753.147100862999" y="1515.0" />
+      <point x="56.0" y="93.0" />
+    </edge>
+    <edge source="com.manu.GameMain" target="Helpers.GameManager">
+      <point x="31.75" y="-49.5" />
+      <point x="1881.9833333333333" y="4579.0" />
+      <point x="2222.15" y="4579.0" />
+      <point x="2222.15" y="2145.0" />
+      <point x="1896.65" y="2145.0" />
+      <point x="62.0" y="215.0" />
+    </edge>
+    <edge source="Huds.HighscoreButtons" target="Scenes.MainMenu">
+      <point x="96.0" y="105.5" />
+      <point x="1665.65" y="2788.0" />
+      <point x="1814.5796666251765" y="2788.0" />
+      <point x="1814.5796666251765" y="4169.0" />
+      <point x="1806.0796666251765" y="4169.0" />
+      <point x="-43.5" y="-160.0" />
+    </edge>
+    <edge source="Huds.UIHud" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="-67.33333333333326" y="-281.5" />
+      <point x="1257.4166666666667" y="2125.0" />
+      <point x="908.25" y="2125.0" />
+      <point x="908.25" y="1595.0" />
+      <point x="849.2240239399223" y="1595.0" />
+      <point x="20.15384615384619" y="732.5" />
+    </edge>
+    <edge source="Player.Player" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="-86.33333333333331" y="-160.5" />
+      <point x="681.9166666666667" y="1635.0" />
+      <point x="808.9163316322299" y="1635.0" />
+      <point x="-20.15384615384619" y="732.5" />
+    </edge>
+    <edge source="Huds.OptionsButtons" target="com.manu.GameMain">
+      <point x="-44.200000000000045" y="160.5" />
+      <point x="2298.95" y="2808.0" />
+      <point x="2279.647100862999" y="2808.0" />
+      <point x="2279.647100862999" y="4589.0" />
+      <point x="1889.038888888889" y="4589.0" />
+      <point x="38.80555555555566" y="-49.5" />
+    </edge>
+    <edge source="Huds.HighscoreButtons" target="com.manu.GameMain">
+      <point x="-48.0" y="105.5" />
+      <point x="1521.65" y="2798.0" />
+      <point x="1474.7859897518879" y="2798.0" />
+      <point x="1474.7859897518879" y="3800.0" />
+      <point x="1453.5094079329517" y="3800.0" />
+      <point x="1453.5094079329517" y="4569.0" />
+      <point x="1825.538888888889" y="4569.0" />
+      <point x="-24.694444444444343" y="-49.5" />
+    </edge>
+    <edge source="Scenes.Highscore" target="Helpers.GameInfo">
+      <point x="29.0" y="-160.0" />
+      <point x="1669.8296666251765" y="2798.0" />
+      <point x="1700.15" y="2798.0" />
+      <point x="1700.15" y="1645.0" />
+      <point x="1697.147100862999" y="1645.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="Huds.OptionsButtons" target="Scenes.MainMenu">
+      <point x="-88.40000000000009" y="160.5" />
+      <point x="2254.75" y="2818.0" />
+      <point x="1980.15" y="2818.0" />
+      <point x="1980.15" y="4149.0" />
+      <point x="1893.0796666251765" y="4149.0" />
+      <point x="43.5" y="-160.0" />
+    </edge>
+    <edge source="Clouds.CloudsController" target="Player.Player">
+      <point x="0.0" y="-237.5" />
+      <point x="694.0" y="2155.0" />
+      <point x="703.5" y="2155.0" />
+      <point x="-64.75" y="160.5" />
+    </edge>
+    <edge source="Scenes.MainMenu" target="Helpers.GameInfo">
+      <point x="14.5" y="-160.0" />
+      <point x="1864.0796666251765" y="4139.0" />
+      <point x="1969.15" y="4139.0" />
+      <point x="1969.15" y="1645.0" />
+      <point x="1711.147100862999" y="1645.0" />
+      <point x="14.0" y="93.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Helpers.GameManager">
+      <point x="55.20833333333337" y="-446.0" />
+      <point x="857.9583333333334" y="2778.0" />
+      <point x="1213.25" y="2778.0" />
+      <point x="1213.25" y="2135.0" />
+      <point x="1731.3166666666666" y="2135.0" />
+      <point x="-103.33333333333326" y="215.0" />
+    </edge>
+    <edge source="Scenes.MainMenu" target="com.badlogic.gdx.Screen">
+      <point x="-14.5" y="-160.0" />
+      <point x="1835.0796666251765" y="4169.0" />
+      <point x="1850.147100862999" y="4169.0" />
+      <point x="18.5" y="93.0" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="Helpers.GameInfo">
+      <point x="55.25" y="-149.5" />
+      <point x="2156.4" y="3800.0" />
+      <point x="2142.981630155174" y="3800.0" />
+      <point x="2142.981630155174" y="1545.0" />
+      <point x="1725.147100862999" y="1545.0" />
+      <point x="28.0" y="93.0" />
+    </edge>
+    <edge source="Scenes.Options" target="com.badlogic.gdx.Screen">
+      <point x="-87.0" y="-160.0" />
+      <point x="2333.757444402954" y="2798.0" />
+      <point x="1887.147100862999" y="2798.0" />
+      <point x="55.5" y="93.0" />
+    </edge>
+    <edge source="Scenes.Options" target="com.manu.GameMain">
+      <point x="77.33333333333326" y="160.0" />
+      <point x="2498.0907777362877" y="3800.0" />
+      <point x="2459.7222222222226" y="3800.0" />
+      <point x="2459.7222222222226" y="4619.0" />
+      <point x="1910.2055555555555" y="4619.0" />
+      <point x="59.97222222222217" y="-49.5" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="-121.45833333333326" y="-446.0" />
+      <point x="681.2916666666667" y="2818.0" />
+      <point x="238.5" y="2818.0" />
+      <point x="238.5" y="1605.0" />
+      <point x="748.4547931706915" y="1605.0" />
+      <point x="-80.61538461538464" y="732.5" />
+    </edge>
+    <edge source="Collectables.Collectable" target="com.badlogic.gdx.graphics.g2d.Sprite">
+      <point x="0.0" y="-116.5" />
+      <point x="1060.75" y="1565.0" />
+      <point x="909.6855624014607" y="1565.0" />
+      <point x="80.61538461538464" y="732.5" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="Scenes.Options">
+      <point x="92.08333333333348" y="-149.5" />
+      <point x="2193.2333333333336" y="3800.0" />
+      <point x="2343.424111069621" y="3800.0" />
+      <point x="-77.33333333333326" y="160.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Player.Player">
+      <point x="11.041666666666742" y="-446.0" />
+      <point x="813.7916666666667" y="2758.0" />
+      <point x="842.5" y="2758.0" />
+      <point x="842.5" y="2155.0" />
+      <point x="833.0" y="2155.0" />
+      <point x="64.75" y="160.5" />
+    </edge>
+    <edge source="Huds.HighscoreButtons" target="Helpers.GameInfo">
+      <point x="0.0" y="-105.5" />
+      <point x="1569.65" y="1645.0" />
+      <point x="1683.147100862999" y="1645.0" />
+      <point x="-14.0" y="93.0" />
+    </edge>
+    <edge source="Huds.UIHud" target="com.manu.GameMain">
+      <point x="0.0" y="281.5" />
+      <point x="1324.75" y="2798.0" />
+      <point x="1336.511111111111" y="2798.0" />
+      <point x="1336.511111111111" y="4599.0" />
+      <point x="1804.3722222222223" y="4599.0" />
+      <point x="-45.861111111111086" y="-49.5" />
+    </edge>
+    <edge source="Huds.MainMenuButtons" target="Scenes.Highscore">
+      <point x="-55.25" y="-149.5" />
+      <point x="2045.9" y="3750.0" />
+      <point x="1718.16299995851" y="3750.0" />
+      <point x="77.33333333333348" y="160.0" />
+    </edge>
+    <edge source="Huds.UIHud" target="Helpers.GameInfo">
+      <point x="0.0" y="-281.5" />
+      <point x="1324.75" y="1635.0" />
+      <point x="1669.147100862999" y="1635.0" />
+      <point x="-28.0" y="93.0" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Clouds.CloudsController">
+      <point x="-33.125" y="-446.0" />
+      <point x="769.625" y="2778.0" />
+      <point x="625.0" y="2778.0" />
+      <point x="-69.0" y="237.5" />
+    </edge>
+    <edge source="Scenes.Gameplay" target="Scenes.MainMenu">
+      <point x="33.125" y="446.0" />
+      <point x="835.875" y="3780.0" />
+      <point x="1538.6482968218406" y="3780.0" />
+      <point x="1538.6482968218406" y="4169.0" />
+      <point x="1748.0796666251765" y="4169.0" />
+      <point x="-101.5" y="-160.0" />
+    </edge>
+    <edge source="com.manu.AndroidLauncher" target="com.manu.GameMain">
+      <point x="0.0" y="-27.0" />
+      <point x="-31.75" y="49.5" />
+    </edge>
+    <edge source="Scenes.Highscore" target="Huds.HighscoreButtons">
+      <point x="-87.0" y="-160.0" />
+      <point x="1553.8296666251765" y="2798.0" />
+      <point x="1569.65" y="2798.0" />
+      <point x="0.0" y="105.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="1404.0" y="649.9999999999998" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
